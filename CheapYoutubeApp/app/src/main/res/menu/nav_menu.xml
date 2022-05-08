@@ -14,5 +14,8 @@
         android:id="@+id/notificationFragment"
         android:icon="@drawable/ic_baseline_notifications_active_24"
         android:title="Notification" />
-
+    <item
+        android:id="@+id/navigation"
+        android:icon="@drawable/ic_baseline_payments_24"
+        android:title="Payment" />
 </menu>
