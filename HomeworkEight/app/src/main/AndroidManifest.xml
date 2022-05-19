@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apis">
         <activity
+            android:name=".activities.ResourceActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.UserActivity"
             android:exported="false" />
         <activity

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import com.example.apis.R
 import com.example.apis.adapters.UserRecyclerAdapter.Companion.USER_ID
 import com.example.apis.api.RestClient

@@ -17,4 +17,10 @@ interface ReqResApi {
 
     @PUT("/api/users/{userId}}")
     fun updateUser(@Path("userId") userId: Long, @Body user: CreateUserCommand) : Call<UpdateUserResponse>
+
+    @GET("/api/unknown")
+    fun getResources() : Call<Resources>
+
+    @GET("/api/unknown/{id}")
+    fun getResource(@Path("id") id : Int) : Call<Resource>
 }
