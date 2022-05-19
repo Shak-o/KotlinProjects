@@ -1,4 +1,4 @@
-package com.example.apis
+package com.example.apis.api
 
 data class UserList(
     val `data`: List<Data>,
